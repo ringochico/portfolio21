@@ -131,10 +131,11 @@ p {
 
 .item-1 {
     color: red;
+    width:  300px;
     background-size: 1000px;
     background-repeat: repeat-x;
     background-position:center;
-    background-image:  url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg);
+  
 }
 
 .title{
@@ -203,6 +204,54 @@ p {
 .flex-columns p {
     margin: 20px 0;
 }
+
+
+/* cards */
+
+.card-trip {
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    margin: 15px 10px;
+  }
+  
+  .card-trip > img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card-trip h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-trip p {
+    font-size: 12px;
+    opacity: .7;
+    margin: 0;
+  }
+  
+  
+  .card-trip .card-trip-infos {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+  }
+  
+  .card-trip-infos  {
+    position: absolute;
+    right: 16px;
+    top: -20px;
+    width: 40px;
+  }
+
+
+
+  /* button */
 
 /* Media Query */
 
